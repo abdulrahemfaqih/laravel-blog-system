@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Mono";
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: #f3f4f6;
+}
+
+nav {
+    padding: 20px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+nav .nav__menu {
+    display: flex;
+    gap: 2rem;
+}
+nav .nav__menu a {
+    color: black;
+}
+
+.link__active {
+    border-bottom: 1px solid black;
+}
+
+main {
+    padding: 3rem 15%;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+/* halaman posts  */
+a {
+    color: black;
+}
+
+b {
+    display: block;
+    padding: .5rem 0 0 0;
+}
+
+.container__box__posts {
+    margin-bottom: 2rem;
+}
+
+.container__box__posts p {
+    margin-bottom: 20px;
+}
+
+.btn__back {
+    padding: 6px 15px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
